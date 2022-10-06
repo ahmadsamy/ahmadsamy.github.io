@@ -39,8 +39,8 @@ var x = setInterval(function() {
     var seconds = Math.floor((distance % (1000 * 60)) / 1000);
     
     // Output the result in an element with id="demo"
-    document.getElementById("demo").innerHTML = months +"months " + days + "d " + hours + "h "
-    + minutes + "m " + seconds + "s ";
+    document.getElementById("demo").innerHTML = months +" Months :" + days + " D :" + hours + " H :"
+    + minutes + " M :" + seconds + " S ";
     
     // If the count down is over, write some text 
     if (distance < 0) {
@@ -74,8 +74,8 @@ var x2 = setInterval(function() {
     var seconds2 = Math.floor((distance2 % (1000 * 60)) / 1000);
     
     // Output the result in an element with id="demo"
-    document.getElementById("demo2").innerHTML = months2 +"months " + days2 + "d " + hours2 + "h "
-    + minutes2 + "m " + seconds2 + "s ";
+    document.getElementById("demo2").innerHTML = months2 +" Months :" + days2 + " D :" + hours2 + " H :"
+    + minutes2 + " M :" + seconds2 + " S ";
     
     // If the count down is over, write some text 
     if (distance2 < 0) {
